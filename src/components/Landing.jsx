@@ -11,7 +11,7 @@ function Landing() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
             </p>
             <div className='mt-[5rem] '>
-                <button className='px-[2.4rem] py-[0.836rem] font-bold text-[20.71px] font-sans border-2 border-[#8480FF] rounded-[4.77487px]'>Learn More</button>
+                <button  type='button' className='px-[2.4rem] py-[0.836rem] font-bold text-[20.71px] font-sans border-2 border-[#8480FF] rounded-[4.77487px]'>Learn More</button>
             </div>
         </div>
     </>

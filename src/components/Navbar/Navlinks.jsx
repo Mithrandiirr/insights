@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
 import Link from "next/link";
@@ -20,7 +21,7 @@ function Navlinks() {
                 <li><Link href='/faq'><a>Frequently Asked Questions</a></Link></li>
             </ul>
             <div>
-                <button className='bg-blue px-[1.125rem] py-[0.6875rem] rounded'>
+                <button  type='button' className='bg-blue px-[1.125rem] py-[0.6875rem] rounded'>
                     Purchase Now
                 </button>
             </div>
@@ -55,7 +56,7 @@ function Navlinks() {
             <li><Link href='faq'><a>Frequently Asked Questions</a></Link></li>
         </ul>
         <div>
-            <button className='bg-blue px-[1.125rem] py-[0.6875rem] rounded'>
+            <button  type='button' className='bg-blue px-[1.125rem] py-[0.6875rem] rounded'>
                 Purchase Now
             </button>
         </div>
