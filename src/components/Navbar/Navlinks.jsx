@@ -1,6 +1,9 @@
 import React from 'react'
+
 import Link from "next/link";
+
 import styles from '../../../styles/insights.module.css'
+
 function Navlinks() {
     const [isMobile,setMobile] = React.useState(false)
     const handleClick = () =>
@@ -12,9 +15,9 @@ function Navlinks() {
     <nav className='flex-1 self-center mt-[3.75rem]' id={styles.navbar}>
         <div className='flex flex-row justify-end font-sans text-base'>
             <ul className='flex flex-row gap-[3.875rem]   items-center mr-[4.8125rem]'>
-                <li><Link href='features'><a>Features</a></Link></li>
-                <li><Link href='stats'><a>Stats</a></Link></li>
-                <li><Link href='faq'><a>Frequently Asked Questions</a></Link></li>
+                <li><Link href='/features'><a>Features</a></Link></li>
+                <li><Link href='/stats'><a>Stats</a></Link></li>
+                <li><Link href='/faq'><a>Frequently Asked Questions</a></Link></li>
             </ul>
             <div>
                 <button className='bg-blue px-[1.125rem] py-[0.6875rem] rounded'>

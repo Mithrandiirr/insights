@@ -1,6 +1,9 @@
 import React from 'react'
+
 import Logo from './Navbar/Logo'
+
 import Navlinks from './Navbar/Navlinks'
+
 function Header() {
 
   return (

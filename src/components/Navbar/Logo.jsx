@@ -1,5 +1,7 @@
 import React from 'react'
+
 import Link from "next/link";
+
 function Logo() {
   return (
     <div className='mt-[3.75rem]'>
