@@ -1,0 +1,18 @@
+.header{
+    border-bottom: 1px solid #ffffff17;
+}
+.front{
+   background: url(../public/Pattern.png);
+   width: 100%;
+}
+#mobileNavbar{
+    display:none;
+}
+@media screen and (max-width:1185px) {
+    #navbar {
+        display: none;
+    }
+    #mobileNavbar{
+        display:block;
+    }
+}
