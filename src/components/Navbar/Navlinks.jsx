@@ -28,10 +28,10 @@ function Navlinks() {
         </div>
     </nav>
 
- <nav className='flex-1 self-center mt-[3.75rem] float-right' id={styles.mobileNavbar}>
+ <nav className='flex-1 self-center mt-[3.75rem]  ' id={styles.mobileNavbar}>
      {!isMobile?
     (
-        <svg className='cursor-pointer' onClick={handleClick} width="49" height="50" viewBox="0 0 49 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className='cursor-pointer float-right' onClick={handleClick} width="49" height="50" viewBox="0 0 49 50" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M1.53121 10.8095H47.4687C48.3139 10.8095 48.9999 10.1234 48.9999 9.27828C48.9999 8.433 48.3138 7.74707 47.4687 7.74707H1.53121C0.686053 7.74707 0 8.433 0 9.27828C0 10.1236 0.686053 10.8095 1.53121 10.8095Z" fill="white"/>
         <path d="M47.4687 23.0596H1.53121C0.685926 23.0596 0 23.7456 0 24.5908C0 25.4359 0.686053 26.122 1.53121 26.122H47.4687C48.3139 26.122 48.9999 25.4359 48.9999 24.5908C48.9999 23.7456 48.3139 23.0596 47.4687 23.0596Z" fill="white"/>
         <path d="M47.4687 38.3721H1.53121C0.685926 38.3721 0 39.0581 0 39.9033C0 40.7486 0.686053 41.4345 1.53121 41.4345H47.4687C48.3139 41.4345 48.9999 40.7484 48.9999 39.9033C49 39.058 48.3139 38.3721 47.4687 38.3721Z" fill="white"/>
