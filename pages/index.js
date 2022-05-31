@@ -7,6 +7,7 @@ import Header from '../src/components/Header'
 import Landing from '../src/components/Landing'
 
 import Features from '../src/components/Features'
+
 export default function Home() {
   return (
 <div className='max-w-[1920px] mx-auto'>
