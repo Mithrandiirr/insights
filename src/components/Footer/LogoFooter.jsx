@@ -30,7 +30,7 @@ function LogoFooter() {
         <span className='font-bold text-white text-2xl leading-6 font-ibm'>
             0xInsights
         </span>
-        <span className='mt-[6px] text-[12px] leading-[24px] font-normal tracking-[-0.16px]'>
+        <span className='text-p mt-[6px] text-[12px] leading-[24px] font-normal tracking-[-0.16px]'>
         Copyright 0xInsights 2022
         </span>
         </div>
