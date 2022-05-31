@@ -23,3 +23,6 @@ a {
   box-sizing: border-box;
   margin: 0;
 }
+.MuiPaper-root{
+  background: #0B072E !important;
+}
