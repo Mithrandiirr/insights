@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=IBM+Plex+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,6 +10,8 @@ body {
   font-family: 'DM Sans', monospace;
   background: #0B072E;
   color: white;
+  background-image: url('../src/assets/Gradient.png');
+  background-size: cover;
 }
 
 a {

@@ -6,6 +6,15 @@
    width: 100%;
    background-size: cover;
 }
+.stats{
+    text-align: -webkit-center;
+}
+.bag{
+    background: rgba(169, 128, 255, 0.25);
+}
+.footer {
+    border-top: 1px solid #ffffff17;
+}
 #mobileNavbar{
     display:none;
 }

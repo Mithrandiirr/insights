@@ -14,14 +14,14 @@ function Navlinks() {
   return (
       <>
     <nav className='flex-1 self-center mt-[3.75rem]' id={styles.navbar}>
-        <div className='flex flex-row justify-end  text-base'>
+        <div className='flex flex-row justify-end  text-base font-medium leading-[24px] tracking-[-0.16px]'>
             <ul className='flex flex-row gap-[3.875rem]   items-center mr-[4.8125rem]'>
-                <li><Link href='/features'><a>Features</a></Link></li>
-                <li><Link href='/stats'><a>Stats</a></Link></li>
-                <li><Link href='/faq'><a>Frequently Asked Questions</a></Link></li>
+                <li><Link href='/'><a>Features</a></Link></li>
+                <li><Link href='/'><a>Stats</a></Link></li>
+                <li><Link href='/'><a>Frequently Asked Questions</a></Link></li>
             </ul>
             <div>
-                <button  type='button' className='bg-blue px-[1.125rem] py-[0.6875rem] rounded'>
+                <button  type='button' className='bg-blue px-[1.125rem] py-[0.6875rem] text-[16px] leading-[24px] font-bold rounded'>
                     Purchase Now
                 </button>
             </div>

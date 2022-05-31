@@ -1,12 +1,11 @@
 import Head from 'next/head'
-
 import styles from '../styles/insights.module.css'
-
 import Header from '../src/components/Header'
-
 import Landing from '../src/components/Landing'
-
 import Features from '../src/components/Features'
+import Stats from '../src/components/Stats'
+import FAQ from '../src/components/FAQ'
+import Footer from '../src/components/Footer'
 
 export default function Home() {
   return (
@@ -23,7 +22,15 @@ export default function Home() {
       </section>
       </div>
       <Features />
-
+      <section>
+        <Stats />
+      </section>
+      <section>
+      <FAQ />
+      </section>
+      <footer className={styles.footer}>
+        <Footer />
+      </footer>
 </div>
 
   )
