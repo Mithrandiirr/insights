@@ -131,7 +131,7 @@ function Dotted() {
 
         </div>
         <div className='relative'>
-        <div className='absolute left-0 top-[1468px]'>
+        <div className='absolute left-0 top-[1200px]'>
         <svg width="127" height="302" viewBox="0 0 127 302" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g opacity="0.4">
 <path d="M-2.89461 -9.78349e-08L-1.40248 -1.63058e-07L-1.40248 1.95259L0.835724 1.95259L0.835724 3.25432L-1.40248 3.25432L-1.40248 5.20691L-2.89461 5.20691L-2.89461 3.25432L-5.13281 3.25432L-5.13281 1.95259L-2.89461 1.95259L-2.89461 -9.78349e-08Z" fill="white" fillOpacity="0.5"/>
