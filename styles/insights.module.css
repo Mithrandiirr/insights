@@ -4,6 +4,7 @@
 .front{
    background: url(../public/Pattern.png);
    width: 100%;
+   background-size: cover;
 }
 #mobileNavbar{
     display:none;

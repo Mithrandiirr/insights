@@ -14,7 +14,7 @@ function Navlinks() {
   return (
       <>
     <nav className='flex-1 self-center mt-[3.75rem]' id={styles.navbar}>
-        <div className='flex flex-row justify-end font-sans text-base'>
+        <div className='flex flex-row justify-end  text-base'>
             <ul className='flex flex-row gap-[3.875rem]   items-center mr-[4.8125rem]'>
                 <li><Link href='/features'><a>Features</a></Link></li>
                 <li><Link href='/stats'><a>Stats</a></Link></li>
@@ -49,7 +49,7 @@ function Navlinks() {
 
     {isMobile &&
     (
-        <div className='flex flex-row justify-end font-sans text-base'>
+        <div className='flex flex-row justify-end  text-base'>
         <ul className='flex flex-row gap-[3.875rem]   items-center mr-[4.8125rem]'>
             <li><Link href='features'><a>Features</a></Link></li>
             <li><Link href='stats'><a>Stats</a></Link></li>
