@@ -130,6 +130,7 @@ function Dotted() {
 </svg>
 
         </div>
+        <div className='relative'>
         <div className='absolute left-0 top-[1468px]'>
         <svg width="127" height="302" viewBox="0 0 127 302" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g opacity="0.4">
@@ -296,6 +297,7 @@ function Dotted() {
 </g>
 </svg>
 
+        </div>
         </div>
     </div>
   )
