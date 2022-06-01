@@ -4,6 +4,24 @@ import React from 'react'
 import Link from "next/link";
 
 function LogoFooter() {
+  const Feature = () =>
+  {
+     document.querySelector('#sectionPage').scrollIntoView({ 
+         behavior: 'smooth' 
+       });
+  }
+  const Stats = () =>
+  {
+     document.querySelector('#statsPage').scrollIntoView({ 
+         behavior: 'smooth' 
+       });
+  }
+  const FAQ = () =>
+  {
+     document.querySelector('#faqPage').scrollIntoView({ 
+         behavior: 'smooth' 
+       });
+  }
   return (
     <div className='full-width'>
         <Link href='/'>
@@ -38,9 +56,9 @@ function LogoFooter() {
         </Link>
         <nav className='hidden footer-hidden mt-[8.974375rem]'>
           <ul className='text-[16px] leading-[24px] tracking-[-0.16 px] font-normal'>
-            <li className='mb-[64px]'><Link href='/'><a>Features</a></Link></li>
-            <li className='mb-[64px]'><Link href='/'><a>Stats</a></Link></li>
-            <li className='mb-[64px]'><Link href='/'><a>Frequently Asked Questions</a></Link></li>
+            <li className='mb-[64px]'><button type='button' onClick={Feature}>Features</button></li>
+            <li className='mb-[64px]'><button type='button' onClick={Stats}>Stats</button></li>
+            <li className='mb-[64px]'><button type='button' onClick={FAQ}>Frequently Asked Questions</button></li>
           </ul>
         </nav>
     </div>

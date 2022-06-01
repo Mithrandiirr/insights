@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import Link from "next/link"; 
+
 import styles from '../../../styles/insights.module.css'
 
 
@@ -51,21 +51,40 @@ function Navlinks() {
             footer.style.marginTop = '0'
          }
      },[isMobile])
+     const Feature = () =>
+     {
+        document.querySelector('#sectionPage').scrollIntoView({ 
+            behavior: 'smooth' 
+          });
+     }
+     const Stats = () =>
+     {
+        document.querySelector('#statsPage').scrollIntoView({ 
+            behavior: 'smooth' 
+          });
+     }
+     const FAQ = () =>
+     {
+        document.querySelector('#faqPage').scrollIntoView({ 
+            behavior: 'smooth' 
+          });
+     }
   return (
       <>
     <nav className='flex-1 self-center mt-[3.75rem]' id={styles.navbar}>
         <div className='flex flex-row justify-end  text-base font-medium leading-[24px] tracking-[-0.16px]'>
             <ul className='flex flex-row gap-[3.875rem]   items-center mr-[4.8125rem]'>
-                <li><Link href='/'><a>Features</a></Link></li>
-                <li><Link href='/'><a>Stats</a></Link></li>
+                <li><button type='button' onClick={Feature} >Features</button></li>
+                <li><button type='button' onClick={Stats} >Stats</button></li>
                 <li>
-                <Link href='/'>
-                <a>
+                <button href='#faqPage'
+                type='button' onClick={FAQ}
+                >
                 {isFAQ ?
                 "FAQ" : "Frequently Asked Questions"
                 }
-                </a>
-                </Link>
+               
+                </button>
                 </li>
             </ul>
             <div>
@@ -104,9 +123,9 @@ function Navlinks() {
         <div className='hidden navlinks top-[220px] absolute mx-[24px] font-medium trackng-[-0.16 px]'>
           
         <ul className='text-[24px] leading-[24px] ' >
-            <li className='mb-[64px]'><Link href='features'><a>Features</a></Link></li>
-            <li className='mb-[64px]'><Link href='stats'><a>Stats</a></Link></li>
-            <li className='mb-[64px]'><Link href='faq'><a>Frequently Asked Questions</a></Link></li>
+                 <li className='mb-[64px]'><button type='button' onClick={Feature} >Features</button></li>
+                <li className='mb-[64px]'><button type='button' onClick={Stats} >Stats</button></li>
+            <li className='mb-[64px]'><button type='button' onClick={Feature}>Frequently Asked Questions</button></li>
         </ul>
         
     </div>
