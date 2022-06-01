@@ -51,7 +51,7 @@ function FAQ() {
   };
   return (
     <div className='mt-[307.2px] mb-[26.9725rem]'>
-        <div className='mx-[17.885625rem]'>
+        <div className='mx-[17.885625rem] faq'>
           <h1 className='text-center text-[36px] font-bold leading-[55px] tracking-[-1.5px] mb-[104px]'>Frequently Asked Questions</h1>
           <div>
             

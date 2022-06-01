@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header className=' mb-[2.1875rem] '>
-        <div className='flex mx-[7.0575rem]  '>   
+        <div className='flex mx-[7.0575rem] header '>   
             <Logo />
             <Navlinks />
         </div>

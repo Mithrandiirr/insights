@@ -5,9 +5,9 @@ import Link from "next/link";
 
 function LogoFooter() {
   return (
-    <div >
+    <div className='full-width'>
         <Link href='/'>
-        <a className='flex flex-row items-center gap-[1.91rem] ' >
+        <a className='flex flex-row items-center gap-[1.91rem] logo' >
         <svg width="63" height="50" viewBox="0 0 63 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M24.3446 35.004L23.0845 33.0892L17.7207 36.4253L18.9808 38.3401L24.3446 35.004Z" fill="#1C164F"/>
             <path d="M40.6294 42.909C52.6214 42.909 62.3429 33.4582 62.3429 21.8001C62.3429 10.142 52.6214 0.691284 40.6294 0.691284C28.6374 0.691284 18.916 10.142 18.916 21.8001C18.916 33.4582 28.6374 42.909 40.6294 42.909Z" fill="url(#paint0_linear_2_2860)"/>
@@ -36,6 +36,13 @@ function LogoFooter() {
         </div>
         </a>
         </Link>
+        <nav className='hidden footer-hidden mt-[8.974375rem]'>
+          <ul className='text-[16px] leading-[24px] tracking-[-0.16 px] font-normal'>
+            <li className='mb-[64px]'><Link href='/'><a>Features</a></Link></li>
+            <li className='mb-[64px]'><Link href='/'><a>Stats</a></Link></li>
+            <li className='mb-[64px]'><Link href='/'><a>Frequently Asked Questions</a></Link></li>
+          </ul>
+        </nav>
     </div>
   )
 }

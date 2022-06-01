@@ -12,7 +12,7 @@ function Stats() {
       </div>
         <div className={styles.stats}>
             <h4 className='text-[42px] font-bold leading-[48px] tracking-[-1.20878px]'>Stats</h4>
-            <p className='text-[16px] w-[600px] leading-[34px] font-normal mt-[1.375rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+            <p className='text-[16px] w-[600px] leading-[34px] stats-p font-normal mt-[1.375rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
             <Cards />
             
         </div>

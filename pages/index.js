@@ -11,24 +11,31 @@ export default function Home() {
   return (
 <div className='max-w-[1920px] mx-auto'>
       <Head>
+         <meta name="viewport" content="width=device-width, initial-scale=1" />
+         <meta charSet="utf-8" />
          <title>0xInsights - Home</title>
+         <link rel="shortcut icon" sizes="32x32" href="/favicon_32.png" />
+         <link rel="shortcut icon" sizes="24x24" href="/favicon_24.png" />
+         <meta property="og:image" content="/preview.png" />
       </Head>
-      <div className={styles.front}>
-      <section className={styles.header}>
+      <div id='headerImage' className={styles.front}>
+      <section  className={styles.header}>
       <Header  />
       </section>
-      <section className=''>
+      <section id='landingPage'>
       <Landing />
       </section>
       </div>
-      <Features />
-      <section>
+      <section id='sectionPage'>
+      <Features  />
+      </section>
+      <section id='statsPage'>
         <Stats />
       </section>
-      <section>
+      <section id='faqPage'>
       <FAQ />
       </section>
-      <footer className={styles.footer}>
+      <footer id='footer' className={styles.footer}>
         <Footer />
       </footer>
 </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function FeatureOne() {
   return (
-    <div className='ml-[14.9375rem] mt-[4.765625rem]'>
+    <div className='ml-[14.9375rem] mt-[4.765625rem] feature'>
         <div className='flex flex-row '>
           <span>
           <svg width="138" height="138" viewBox="0 0 138 138" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +24,7 @@ function FeatureOne() {
             </defs>
           </svg>
           </span>
-          <div className='text-left ml-[2.5625rem] mt-[1rem] mr-[14.9375rem]'>
+          <div className='text-left ml-[2.5625rem] mt-[1rem] mr-[14.9375rem] feature-text'>
             <h4 className='text-[1.375rem] font-bold font-ibm tracking-[1px]'>Feature 1</h4>
             <p className='text-[15px] text-p font-normal mt-[1.125rem] leading-[30px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
           </div>

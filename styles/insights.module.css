@@ -18,11 +18,12 @@
 #mobileNavbar{
     display:none;
 }
-@media screen and (max-width:1185px) {
+@media screen and (max-width:1024px) {
     #navbar {
         display: none;
     }
     #mobileNavbar{
         display:block;
     }
+    
 }

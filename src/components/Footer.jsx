@@ -5,16 +5,32 @@ import styles from '../../styles/insights.module.css'
 import LogoFooter from './Footer/LogoFooter'
 
 function Footer() {
+    const [isFAQ,setFAQ] = React.useState(false)
+    React.useEffect(()=> {
+        if (typeof window !== 'undefined') {
+        window.addEventListener('resize', ()=> {
+           if(window.innerWidth < '850')
+           {
+            setFAQ(true)
+           }
+           else 
+           setFAQ(false)
+        })
+    }
+     }, [])
   return (
     <div>
-        <div className='flex mx-[7.0575rem] mb-[75px] mt-[74px] '>
+        <div className='flex mx-[7.0575rem] mb-[75px] mt-[74px] footer'>
             <LogoFooter />
-            <nav className='flex-1 self-center ' id={styles.navbar}>
+            <nav className='flex-1 self-center ' id={styles.navbarFooter}>
         <div className='flex flex-row justify-end  text-base'>
-            <ul className='flex flex-row gap-[3.875rem]   items-center mr-[4.8125rem]'>
+            <ul className='flex flex-row gap-[3.875rem] footer-links  items-center mr-[4.8125rem]'>
                 <li><Link href='/features'><a>Features</a></Link></li>
                 <li><Link href='/stats'><a>Stats</a></Link></li>
-                <li><Link href='/faq'><a>Frequently Asked Questions</a></Link></li>
+                <li><Link href='/faq'>
+                    <a>
+                    {isFAQ ? "FAQ" :"Frequently Asked Questions"}
+                    </a></Link></li>
             </ul>
         </div>
     </nav>
