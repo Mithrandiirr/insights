@@ -157,4 +157,49 @@ a {
   #headerImage {
     background-image: none;
   }
+  .feature-p {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .btn {
+    width: 100%;
+  }
+  .btn-btn {
+    width: 100%;
+  }
+}
+@media screen and (max-width:400px)
+{
+  .feature-text{
+    margin-left: 0;
+  }
+  .logo-width{
+    gap: 16px;
+  }
+  .logo-text {
+    font-size: 1.3rem;
+  }
+  
+}
+@media screen and (max-width : 300px)
+{
+  .logo-width{
+    gap: 5px;
+  }
+  .logo-width svg {
+    width: 50px;
+  }
+  .header {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width : 320px)
+{
+  .feature {
+    margin-left: 5px;
+  }
+  .feature-text {
+    margin-left: -15px;
+}
 }
