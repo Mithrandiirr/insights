@@ -151,11 +151,11 @@ a {
     font-size : 18px
   }
   body {
-    background-image: none;
+    background: none;
 
   }
   #headerImage {
-    background-image: none;
+    background: none;
   }
   .feature-p {
     margin-left: 24px;
