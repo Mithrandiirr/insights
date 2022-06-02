@@ -19,7 +19,7 @@ export default function Home() {
          <meta property="og:image" content="/preview.png" />
       </Head>
       <div id='headerImage' className={styles.front}>
-      <section  className={styles.header}>
+      <section   className={styles.header}>
       <Header  />
       </section>
       <section id='landingPage'>
