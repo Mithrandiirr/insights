@@ -7,6 +7,7 @@ import Stats from '../src/components/Stats'
 import FAQ from '../src/components/FAQ'
 import Footer from '../src/components/Footer'
 
+
 export default function Home() {
   return (
 <div className='max-w-[1920px] mx-auto'>
