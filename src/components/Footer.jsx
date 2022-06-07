@@ -37,7 +37,7 @@ function Footer() {
      }
   return (
     <div>
-        <div className='flex mx-[7.0575rem] mb-[75px] mt-[74px] footer'>
+        <div className='flex mx-[7.0575rem] pb-[75px] mt-[74px] footer'>
             <LogoFooter />
             <nav className='flex-1 self-center ' id={styles.navbarFooter}>
         <div className='flex flex-row justify-end  text-base'>

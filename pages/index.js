@@ -19,6 +19,7 @@ export default function Home() {
          <link rel="shortcut icon" sizes="24x24" href="/favicon_24.png" />
          <meta property="og:image" content="/preview.png" />
       </Head>
+      <div className='bodyy'>
       <div id='headerImage' className={styles.front}>
       <section   className={styles.header}>
       <Header  />
@@ -39,6 +40,7 @@ export default function Home() {
       <footer id='footer' className={styles.footer}>
         <Footer />
       </footer>
+      </div>
 </div>
 
   )
